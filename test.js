@@ -34,8 +34,8 @@ function loginFirst() {
 	//console.log('first page loaded');
 	var eleUser = driver.findElement(By.name('username'));
 	//eleUser.sendKeys('ldeng7');
-	driver.executeScript("document.frmLogin.username.value ='ldeng7';");
-	driver.findElement(By.name('password')).sendKeys('Cmsland1' + token);
+	driver.executeScript("document.frmLogin.username.value ='------------your domain account-----------------';");
+	driver.findElement(By.name('password')).sendKeys('*********your token pwd**************' + token);
 	eleUser.submit();
 	//driver.findElement(By.name('btnSubmit')).click();
 	//var but = driver.wait(until.elementLocated(By.id('special'), 10000));
